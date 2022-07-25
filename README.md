@@ -7,3 +7,5 @@ This project includes:
 -Customer categorisation by their features: age, sex, income, education etc.
 
 This project will be constantly updated with new methods of Machine Learning and datasets.
+
+© Frolov Daniil
