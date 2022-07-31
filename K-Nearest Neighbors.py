@@ -8,11 +8,13 @@ df = pd.read_csv('teleCust1000t.csv')
 df.head()
 df['custcat'].value_counts()
 df.hist(column='income', bins=50)
+
 df.columns
 X = df[['region', 'tenure','age', 'marital', 'address', 'income', 'ed', 'employ','retire', 'gender', 'reside']] .values  #.astype(float)
 X[0:5]
 y = df['custcat'].values
 y[0:5]
+
 
 X = preprocessing.StandardScaler().fit(X).transform(X.astype(float))
 X[0:5]
